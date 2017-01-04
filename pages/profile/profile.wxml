@@ -1,0 +1,16 @@
+<!--pages/profile/profile.wxml-->
+<scroll-view>
+    <view class="person-info">
+        <image src="../../images/person.jpeg"></image>
+        <text class="name">EvaLi</text>
+    </view>
+    <view class="mine">
+        <navigator url="../profile-detail/profile-detail"><text>我的收藏</text></navigator>
+        <navigator url="../profile-detail/profile-detail"><text>我的电影票</text></navigator>   
+        <navigator url="../profile-detail/profile-detail"><text>我的兑换券</text></navigator>   
+        <navigator url="../profile-detail/profile-detail"><text>我的优惠券</text></navigator>   
+        <navigator url="../profile-detail/profile-detail"><text>我看过的</text></navigator>  
+        <navigator url="../profile-detail/profile-detail"><text>猜你喜欢</text></navigator>  
+        <navigator url="../profile-detail/profile-detail"><text>应用推荐</text></navigator>  
+    </view>
+</scroll-view>

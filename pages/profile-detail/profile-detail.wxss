@@ -1,0 +1,4 @@
+/* pages/profile-detail/profile-detail.wxss */
+.profile-detail{
+    margin: 200rpx 300rpx;
+}
